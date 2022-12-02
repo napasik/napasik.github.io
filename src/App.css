@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Anton";
+    src: url(fonts/AntonRegular.ttf);
+}
+@font-face {
+    font-family: "Gotham";
+    src: url(fonts/GothamLight.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Gotham";
+    src: url(fonts/GothamRegular.otf);
+    font-weight: 400;
+}
+@font-face {
+font-family: "Gotham";
+src: url(fonts/GothamBold.ttf);
+font-weight: 700;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(fonts/PoppinsBold.ttf);
+}
+
+.wrapper {
+    background: #292929;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 280px 1fr;
+}
+
